@@ -222,8 +222,9 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 // visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
-user_pref("browser.newtabpage.activity-stream.system.showWeather", true)
-user_pref("browser.newtabpage.activity-stream.weather.temperatureUnits", "c")
+user_pref("browser.newtabpage.activity-stream.system.showWeather", true);
+user_pref("browser.newtabpage.activity-stream.weather.temperatureUnits", "c");
+user_pref("browser.tabs.loadBookmarksInBackground", true);
 
 /****************************************************************************
  * SECTION: SMOOTHFOX                                                       *
