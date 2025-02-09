@@ -59,7 +59,7 @@ user_pref("dom.enable_web_task_scheduling", true);
  * SECTION: SECUREFOX                                                       *
 ****************************************************************************/
 /** TRACKING PROTECTION ***/
-user_pref("browser.contentblocking.category", "strict");
+//user_pref("browser.contentblocking.category", "strict");
 user_pref("urlclassifier.trackingSkipURLs", "*.reddit.com, *.twitter.com, *.twimg.com, *.tiktok.com");
 user_pref("urlclassifier.features.socialtracking.skipURLs", "*.instagram.com, *.twitter.com, *.twimg.com");
 user_pref("browser.download.start_downloads_in_tmp_dir", true);
@@ -222,6 +222,7 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 // visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
+user_pref("browser.contentblocking.category", "standard");
 user_pref("browser.newtabpage.activity-stream.system.showWeather", true);
 user_pref("browser.newtabpage.activity-stream.weather.temperatureUnits", "c");
 user_pref("browser.tabs.loadBookmarksInBackground", true);
